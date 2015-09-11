@@ -142,6 +142,7 @@ classdef ExpManager < handle
                 end
                 %Open data file
                 obj.dataFileHandler.open(obj.dataFileHeader, dataInfos, obj.saveVariances);
+                
             end
             
         end
